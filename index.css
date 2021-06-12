@@ -1,0 +1,151 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden; /* removing the horizontal scrollbar for 'fake' responsive design looks :) */
+    overflow-y: scroll; /* forcing the y scrollbar to avoid "jumping" */
+}
+
+/* removing all margin and padding for the body */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+/* ----- banner styling ----- */
+header{
+    margin-bottom:30px;
+}
+ 
+#banner{
+    min-width: 650px; /* restricts the minimum width of the banner to 650px */
+    height: 130px; 
+    background-color: #CABBB7;
+    text-align: center;  /* centers the banner text */
+}
+
+/* styles the text of the banner */
+#banner span{
+    display:inline-block;
+    padding-top: 50px;
+    font-size: 1.1em;
+    font-weight:normal;    
+}
+
+/* styles the image of the banner */
+#banner img{
+    float:right;
+    width:230px;
+    padding: 25px 30px 0 0;
+}
+
+/* ----- navigation styling ----- */
+nav{
+    background-color: #8C1215;
+    min-width: 680px;
+}
+
+ul{
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #8C1215;   
+}
+
+li{
+    float: right;   
+}
+
+li:first-child{
+    margin-right:60px; /* defines a margin of 60px on the right side of the navigation */
+}
+
+li a{
+    display: block;
+    color: white;
+    padding: 12px 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.inactive{
+    color:#c9b2ac; /* shows the currently inactive link */
+}
+
+a:hover{
+    color:#c9b2ac; /* hover effect on available links */
+}
+
+/* ----- main content styling ----- */
+main{
+    margin: 0 auto; /* centers the main conten area */
+    padding: 0;  
+    width:70%; /* gives the main a with of 70% of the viewport */
+    max-width:1080px; /* restrichts the maximum width of the main container to 1080px */
+}
+
+/* class to scale images for responsive behaviour */
+.responsive-image {       
+    width: 100%;
+    height: auto;
+    } 
+
+/* class to make text responsive */
+.responsive-text{
+    display:block;  
+    margin: 0 auto;
+    padding-bottom:40px;
+    font-size:5.5vw;
+    text-align: center;
+    max-width: 880px;
+}
+
+/* class for centering text and some text styling */
+.center-text{
+    text-align: center;
+    margin-top:5px;
+    font-weight:600;
+    letter-spacing:-0.5px;
+}
+
+#column-container{
+    width:100%;
+}
+
+#column1{
+    width:45%;
+    height:auto;
+    float:left;
+    margin-bottom:25px;
+}
+
+#column2{
+    width:45%;
+    height:auto;
+    float:right;
+}
+
+/* ----- footer styling ----- */
+footer{
+    height:110px;
+    background-color: #CABBB7; 
+    text-align: center; 
+    clear:both;  
+}
+
+/* styling of the image in the footer */
+footer img{
+    display:block;
+    margin: 0 auto;
+    padding-top:10px;
+    width:150px;  
+}
+
+/* styling of the text in the footer */
+footer span{
+    display:inline-block;
+    padding-top:15px;
+    font-size: 0.7em;
+}
+    
+ 

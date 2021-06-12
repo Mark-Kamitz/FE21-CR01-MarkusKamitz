@@ -1,0 +1,55 @@
+/* ---- some nice styling for the form ---- */
+
+.form-container{
+    max-width:600px; /* restrict the width of the form to max 600px  */
+    margin: 0 auto;  /* center the form */
+    margin-bottom:20px
+}
+
+.container{
+    border-radius: 5px; /* create slightly rounded borders for the form */
+    background-color: #f2f2f2;
+    padding: 20px;  
+}
+
+/* -- input field styling -- */
+input[type=text], select, textarea{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background-color: #f5f5f5;
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;   /* Allow the user only to vertically resize the textarea */
+  }
+
+  input select:hover{
+    background-color: #f5f5f5;
+  }
+  
+  /* -- Submit button styling -- */
+  input[type=submit]{
+    background-color: #8C1215;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+  }
+  
+  /* -- submit button hover effect -- */
+  input[type=submit]:hover{
+    background-color: #B4624C;
+  }
+  
+  input:focus{
+    background: rgb(255, 255, 255); /* white background if a text field is in focus */
+  }
+
+  textarea:focus{
+    background: rgb(255, 255, 255); /* white background if the text area is in focus */
+  }
+
+  

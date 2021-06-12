@@ -1,0 +1,45 @@
+/* ----- CSS animations ----- */
+
+/* -- fox walking cycle --*/
+main >img {
+    animation-duration: 5s; /* duration of the animation */
+    animation-name: slidein; /* name of the animation */
+}
+ 
+@keyframes slidein {    /* defining the animation */
+    from {
+        margin-left: 90%;  /* defines the startig point of the animation */
+    }
+    to {
+        margin-left: 0%; /* defines the endpoint of the animation */
+    }
+}
+
+/* styling the h2 tag for the animation */
+main > h2{
+    color: rgb(0, 0, 0);
+    padding-top:100px; 
+    font-family: 'Dancing Script', cursive;  
+}
+
+/* -- h2 animation -- */
+main > h2 {
+    animation-duration: 3s;
+    animation-name: slidein2;
+}
+  
+@keyframes slidein2 {
+    from {
+        margin-left: 100%; 
+    }
+    to {
+    margin-left: 0%;
+    }
+}
+
+/* absolute positioning of the audioplayer */
+audio{
+    position:absolute;
+    left:5px;
+    top:185px;
+}

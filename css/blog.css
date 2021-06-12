@@ -1,0 +1,39 @@
+/* -- general template style -- */
+.template{
+    margin: 0 auto; /* center the template */
+    width: 80%;
+    min-width:700px; /* define a minimum width for the template */
+    height: 250px;
+    border-radius:4px; /* slightly rounded borders */
+    padding: 15px;
+    background-color:#f3f3f3;
+    -webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.34); /* slight shadow around the template */
+    box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.34);
+    margin-bottom:30px;
+    color:#c9b2ac;
+    font-family: 'Dancing Script', cursive;
+}
+    hr{
+        background-color:white;
+    }
+
+    /* -- styling of the written blog stories -- */
+    .blog-text{
+        padding:5px;
+        width:60%;
+        height:220px;
+        float:left;
+        font-size:18px;
+    }
+
+    /* -- styling of the blog images -- */
+    .blog-img{
+        width:30%;
+        height:200px;
+        float:right;
+        padding:10px;
+    }
+
+    .blog{
+        width:98%; 
+    }
