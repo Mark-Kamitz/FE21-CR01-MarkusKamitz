@@ -1,7 +1,7 @@
 # FE21-CR01-MarkusKamitz
 First Code Review |  11.06.2021
 
-For this CodeReview, the following criteria were graded:
+**For this CodeReview, the following criteria were graded:**
 
 * Create a GitHub Repository named: FE21-CR01-YourName. Push the files into it and send the link through the learning management system (lms). See an example of a GitHub link below: https://github.com/JohnDoe/repositoryname.git Please remember to set your repository to private and please invite codefactorygit as a collaborator!
 
@@ -19,7 +19,7 @@ For this CodeReview, the following criteria were graded:
 
 * Use CSS selectors (classes and/or IDs) to style your web page (colours, font size, font style etc.).
 
-Bonus Points:
+**Bonus Points:**
 
 * Your page style is using the width properly to be responsive (it looks fine in different web browser sizes)
 
